@@ -1,5 +1,3 @@
-
-
 # Running the shell scripts :
 ```
 sh 01-helloworld.sh
@@ -57,6 +55,20 @@ sh 17-set.sh
 ```
 sh 18-delete-old-logs.sh
 ```
+```
+cd /tmp/
+mkdir app-logs
+cd app-logs
+touch -d 2020101 backend.log
+touch -d 2020102 backend-1.log
+touch -d 20210101 mysql.log
+touch -d 20260521 frontend.log
+touch -d 20260518 redis.log
+touch -d 20210101 expense.log
+touch -d 20260515 cart.log
+ls -1
+```
+
 ```
 sh 19-disk-usage.sh
 ```
